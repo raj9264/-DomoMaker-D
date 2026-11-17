@@ -8,7 +8,6 @@ const expressHandlebars = require('express-handlebars');
 const helmet = require('helmet');
 const session = require('express-session');
 const router = require('./router.js');
-const session = require('express-session');
 const RedisStore = require('connect-redis').RedisStore;
 const redis = require('redis');
 
